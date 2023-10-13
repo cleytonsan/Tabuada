@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+
+/** Variables - colors **/
+:root {
+    /* Light */
+    --color-light-50: #f8fafc;
+
+    /* Dark */
+    --color-dark-50: #8a8ac0;
+    --color-dark-100: #3d265e;
+    --color-dark-900: #000;
+
+    /* blue */
+    --color-blue-50: #0206ff;
+    --color-blue-100: #2f5bbc;
+    --color-blue-200: #46abef;
+
+
+    /* Gradient */
+    --color-gradient: linear-gradient(90deg, var(--color-blue-200), var(--color-blue-50), var(--color-blue-100));
+    --color-grad: linear-gradient(90deg, var(--color-dark-100), var(--color-dark-900), var(--color-dark-50));
+}
+
+/* General */
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    padding: 100px;
+    background: var(--color-grad);
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: rgb(47, 97, 133);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    color: #000000;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.363);
+}
+
+p#operadores{
+    color: red;
+    text-align: center;
+    font-style: italic;
+    box-shadow: 10px 10px 10px rgb(43, 43, 43);
+    background: var(--color-grad);
+    border-radius: 50px;
+}
+
+#seltab {
+    margin: 0 auto;
+    display: block;
+  }
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
